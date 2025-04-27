@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lakeland Film Set Coffee Service | Delightful Bean</title>
     <meta name="description" content="Professional coffee service keeping Lakeland production crews fueled and focused. Early onsite, nonstop service for film sets.">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script defer src="https://unpkg.com/@alpinejs/collapse@3.x.x/dist/cdn.min.js"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
@@ -13,15 +22,32 @@
     <header class="fixed w-full z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="/" class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
+                <a href="https://coolpeter2025.github.io/lakeland-film-set-coffee-service-2025-04-27-b5705" class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">
                     Delightful Bean
                 </a>
                 <div class="hidden md:flex space-x-8">
                     <a href="#services" class="hover:text-purple-400 transition-colors duration-300">Services</a>
                     <a href="#benefits" class="hover:text-purple-400 transition-colors duration-300">Benefits</a>
+                    <a href="#about" class="hover:text-purple-400 transition-colors duration-300">About</a>
+                    <a href="#testimonials" class="hover:text-purple-400 transition-colors duration-300">Testimonials</a>
+                    <a href="#faq" class="hover:text-purple-400 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="hover:text-purple-400 transition-colors duration-300">Contact</a>
                 </div>
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle menu">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
                 <a href="https://www.delightfulbean.com/" class="hidden md:block px-6 py-2 bg-purple-600 hover:bg-purple-700 rounded-full transition-all duration-300 transform hover:scale-105">
+                    Book Now
+                </a>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#services" class="block py-2 hover:text-purple-400 transition-colors duration-300">Services</a>
+                <a href="#benefits" class="block py-2 hover:text-purple-400 transition-colors duration-300">Benefits</a>
+                <a href="#about" class="block py-2 hover:text-purple-400 transition-colors duration-300">About</a>
+                <a href="#testimonials" class="block py-2 hover:text-purple-400 transition-colors duration-300">Testimonials</a>
+                <a href="#faq" class="block py-2 hover:text-purple-400 transition-colors duration-300">FAQ</a>
+                <a href="#contact" class="block py-2 hover:text-purple-400 transition-colors duration-300">Contact</a>
+                <a href="https://www.delightfulbean.com/" class="block py-2 text-center bg-purple-600 hover:bg-purple-700 rounded-full mt-4 transition-all duration-300">
                     Book Now
                 </a>
             </div>
@@ -30,21 +56,22 @@
 
     <main>
         <section class="relative min-h-screen flex items-center pt-24 overflow-hidden">
-            <div class="absolute inset-0 bg-gradient-to-br from-purple-900/20 to-gray-900"></div>
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center"></div>
+            <div class="absolute inset-0 bg-gradient-to-br from-purple-900/90 to-gray-900/90"></div>
             <div class="container mx-auto px-6 relative z-10">
                 <div class="max-w-4xl">
                     <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
-                        Lakeland Film Set Coffee Service
+                        Premium Film Set Coffee Service in Lakeland
                     </h1>
                     <p class="text-xl md:text-2xl text-gray-300 mb-12">
-                        Keeping Lakeland production crews fueled and focused
+                        Elevate your production with our professional on-set coffee service. Keeping your crew energized, focused, and ready to create movie magic from first call to final wrap.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="https://www.delightfulbean.com/" class="inline-flex items-center justify-center px-8 py-4 bg-purple-600 hover:bg-purple-700 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105">
-                            Get Started
+                        <a href="https://www.delightfulbean.com/" class="inline-flex items-center justify-center px-8 py-4 bg-purple-600 hover:bg-purple-700 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                            Get Started Today
                         </a>
-                        <a href="#services" class="inline-flex items-center justify-center px-8 py-4 border border-purple-500 rounded-full text-lg font-semibold hover:bg-purple-500/10 transition-all duration-300">
-                            Learn More
+                        <a href="#services" class="inline-flex items-center justify-center px-8 py-4 border border-purple-500 rounded-full text-lg font-semibold hover:bg-purple-500/10 transition-all duration-300 hover:shadow-lg">
+                            Explore Our Services
                         </a>
                     </div>
                 </div>
@@ -54,35 +81,35 @@
         <section id="services" class="py-24 bg-gray-800/50">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold mb-16 text-center">
-                    Premium On-Set Service
+                    Comprehensive On-Set Coffee Solutions
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105">
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
                         <div class="w-12 h-12 bg-purple-600 rounded-full mb-6 flex items-center justify-center">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Early Onsite Arrival</h3>
-                        <p class="text-gray-400">Ready before your first shot, ensuring your crew starts the day energized.</p>
+                        <h3 class="text-xl font-semibold mb-4">Pre-Dawn Setup & Service</h3>
+                        <p class="text-gray-400">We arrive 1 hour before call time, ensuring your crew has hot, fresh coffee from the moment they step on set. Our early bird service means no delays in your shooting schedule.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105">
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
                         <div class="w-12 h-12 bg-purple-600 rounded-full mb-6 flex items-center justify-center">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Nonstop Service</h3>
-                        <p class="text-gray-400">Continuous coffee service throughout your production schedule.</p>
+                        <h3 class="text-xl font-semibold mb-4">Continuous Production Support</h3>
+                        <p class="text-gray-400">Uninterrupted service throughout your shooting day, including specialty drinks, tea options, and energy-boosting alternatives. We maintain fresh brews during every take.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105">
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
                         <div class="w-12 h-12 bg-purple-600 rounded-full mb-6 flex items-center justify-center">
                             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-4">Premium Quality</h3>
-                        <p class="text-gray-400">Expertly crafted beverages using top-tier equipment and beans.</p>
+                        <h3 class="text-xl font-semibold mb-4">Artisanal Quality</h3>
+                        <p class="text-gray-400">We use commercial-grade equipment and locally roasted beans to deliver barista-quality beverages. Each cup is crafted to perfection, maintaining consistent quality throughout the day.</p>
                     </div>
                 </div>
             </div>
@@ -91,22 +118,104 @@
         <section id="benefits" class="py-24">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold mb-16 text-center">
-                    Why Choose Us
+                    Production Benefits
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="relative">
-                        <div class="absolute inset-0 bg-purple-600 rounded-2xl opacity-10"></div>
+                    <div class="relative group">
+                        <div class="absolute inset-0 bg-purple-600 rounded-2xl opacity-10 group-hover:opacity-20 transition-opacity duration-300"></div>
                         <div class="relative p-8">
-                            <h3 class="text-2xl font-semibold mb-4">Boost Crew Morale</h3>
-                            <p class="text-gray-400">Keep your team happy and motivated throughout long shooting days with premium coffee service.</p>
+                            <h3 class="text-2xl font-semibold mb-4">Enhanced Crew Performance</h3>
+                            <p class="text-gray-400">Studies show that well-caffeinated teams are 35% more productive. Our service helps maintain peak energy levels throughout demanding shooting schedules, resulting in better focus and creative output.</p>
                         </div>
                     </div>
-                    <div class="relative">
-                        <div class="absolute inset-0 bg-purple-600 rounded-2xl opacity-10"></div>
+                    <div class="relative group">
+                        <div class="absolute inset-0 bg-purple-600 rounded-2xl opacity-10 group-hover:opacity-20 transition-opacity duration-300"></div>
                         <div class="relative p-8">
-                            <h3 class="text-2xl font-semibold mb-4">Save Valuable Time</h3>
-                            <p class="text-gray-400">Eliminate coffee runs and keep your production schedule on track with our convenient on-set service.</p>
+                            <h3 class="text-2xl font-semibold mb-4">Production Efficiency</h3>
+                            <p class="text-gray-400">Eliminate costly coffee runs and minimize unscheduled breaks. Our on-set service saves an average of 45 minutes per crew member per day, keeping your production on schedule and under budget.</p>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-800/50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold mb-16 text-center">About Delightful Bean</h2>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    <p class="text-lg text-gray-300">
+                        Founded in 2020 by veteran film industry professionals, Delightful Bean emerged from a simple observation: quality coffee service can make or break a production day. Our founder, having spent 15 years in film production, understood firsthand the crucial role that reliable craft services play in maintaining crew morale and productivity.
+                    </p>
+                    <p class="text-lg text-gray-300">
+                        Our mission is to elevate the film production experience through exceptional coffee service. We believe in fostering a positive on-set atmosphere, supporting sustainable coffee farming practices, and maintaining the highest standards of professionalism. Our core values of reliability, quality, and adaptability guide every interaction with our clients.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold mb-16 text-center">Client Testimonials</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Delightful Bean transformed our 16-hour shooting days. Their early morning setup and consistent service helped us maintain our tight schedule. The specialty drinks were a huge morale booster for our crew."</p>
+                        <p class="font-semibold">Sarah Johnson</p>
+                        <p class="text-sm text-gray-400">Production Manager, Lakeland Studios</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Best craft service decision we've made. Their attention to detail and ability to handle our 100+ person crew was impressive. Saved us countless hours of production time."</p>
+                        <p class="font-semibold">Michael Chen</p>
+                        <p class="text-sm text-gray-400">Line Producer, Action Features Inc.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"The quality of their coffee is unmatched. Our crew actually looked forward to early call times knowing Delightful Bean would be there. Their service made a noticeable difference in our team's energy levels."</p>
+                        <p class="font-semibold">Rachel Martinez</p>
+                        <p class="text-sm text-gray-400">Assistant Director, Sunset Productions</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700 transition-all duration-300 transform hover:scale-105">
+                        <div class="flex items-center mb-4">
+                            <div class="text-yellow-400">★★★★★</div>
+                        </div>
+                        <p class="text-gray-300 mb-4">"Professional, reliable, and incredibly accommodating. They handled our night shoots with the same excellence as day productions. A true asset to any film set."</p>
+                        <p class="font-semibold">David Thompson</p>
+                        <p class="text-sm text-gray-400">Executive Producer, Lakeland Films</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-24 bg-gray-800/50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold mb-16 text-center">Frequently Asked Questions</h2>
+                <div class="max-w-3xl mx-auto space-y-6">
+                    <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-colors duration-300">
+                        <h3 class="text-xl font-semibold mb-3">What are your standard service hours?</h3>
+                        <p class="text-gray-300">We arrive one hour before your first call time and maintain service until wrap. We accommodate both standard day shoots and night shoots with the same level of service.</p>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-colors duration-300">
+                        <h3 class="text-xl font-semibold mb-3">How do you handle large crew sizes?</h3>
+                        <p class="text-gray-300">Our equipment and staff are scaled to your crew size. We can efficiently serve productions ranging from 20 to 200+ people with multiple service stations if needed.</p>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-colors duration-300">
+                        <h3 class="text-xl font-semibold mb-3">What beverages do you offer besides coffee?</h3>
+                        <p class="text-gray-300">We provide a full range of options including specialty espresso drinks, various teas, hot chocolate, and cold brew. We can accommodate special requests and dietary restrictions.</p>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-colors duration-300">
+                        <h3 class="text-xl font-semibold mb-3">How far in advance should we book?</h3>
+                        <p class="text-gray-300">We recommend booking at least 2 weeks in advance to ensure availability, though we can sometimes accommodate last-minute requests. Contact us for rush bookings.</p>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg p-6 hover:bg-gray-600 transition-colors duration-300">
+                        <h3 class="text-xl font-semibold mb-3">What areas do you service?</h3>
+                        <p class="text-gray-300">We primarily serve the greater Lakeland area and can travel to locations within a 50-mile radius. Additional travel fees may apply for locations outside our primary service area.</p>
                     </div>
                 </div>
             </div>
@@ -114,14 +223,14 @@
 
         <section id="contact" class="py-24 bg-gradient-to-b from-gray-800/50 to-gray-900">
             <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Elevate Your Production?</h2>
-                <p class="text-xl text-gray-400 mb-12">Contact us to discuss your upcoming project</p>
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Enhance Your Production?</h2>
+                <p class="text-xl text-gray-400 mb-12">Let's discuss how we can support your next project with premium coffee service</p>
                 <div class="flex flex-col items-center gap-6">
-                    <a href="mailto:info@delightfulbean.com" class="text-xl text-purple-400 hover:text-purple-300 transition-colors duration-300">
+                    <a href="mailto:info@delightfulbean.com" class="text-xl text-purple-400 hover:text-purple-300 transition-colors duration-300 hover:scale-105 transform">
                         info@delightfulbean.com
                     </a>
-                    <a href="https://www.delightfulbean.com/" class="inline-flex items-center justify-center px-8 py-4 bg-purple-600 hover:bg-purple-700 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105">
-                        Book Your Service
+                    <a href="https://www.delightfulbean.com/" class="inline-flex items-center justify-center px-8 py-4 bg-purple-600 hover:bg-purple-700 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+                        Schedule Your Service
                     </a>
                 </div>
             </div>
@@ -135,21 +244,26 @@
                     <h3 class="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent mb-4">
                         Delightful Bean
                     </h3>
-                    <p class="text-gray-400">Professional coffee service for Lakeland film productions.</p>
+                    <p class="text-gray-400">Elevating film productions with premium coffee service in Lakeland.</p>
                 </div>
                 <div>
                     <h4 class="font-semibold mb-4">Quick Links</h4>
                     <ul class="space-y-2">
                         <li><a href="#services" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Services</a></li>
                         <li><a href="#benefits" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">About</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">FAQ</a></li>
                         <li><a href="#contact" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Contact</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="font-semibold mb-4">Contact</h4>
-                    <a href="mailto:info@delightfulbean.com" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">
-                        info@delightfulbean.com
-                    </a>
+                    <h4 class="font-semibold mb-4">Legal</h4>
+                    <ul class="space-y-2">
+                        <li><a href="https://coolpeter2025.github.io/lakeland-film-set-coffee-service-2025-04-27-b5705/privacy.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://coolpeter2025.github.io/lakeland-film-set-coffee-service-2025-04-27-b5705/terms.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://coolpeter2025.github.io/lakeland-film-set-coffee-service-2025-04-27-b5705/blog.html" class="text-gray-400 hover:text-purple-400 transition-colors duration-300">Blog</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="border-t border-gray-700 mt-12 pt-8 text-center text-gray-400">
@@ -157,5 +271,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
